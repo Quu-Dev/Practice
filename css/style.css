@@ -960,6 +960,18 @@ display: flex;
 
 }
 
+@media (max-width: 1080px){
+  .blog-section{
+    margin-left: clamp(30px, 5vh, 200px);
+    margin-right: clamp(30px, 5vh, 200px);
+  }
+
+  .blog-content{
+    grid-template-columns: 31% 31%;
+  }
+
+}
+
 @media (max-width: 850px){
   .blog-content {
     display: flex;
