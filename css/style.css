@@ -947,7 +947,6 @@ display: flex;
 }
 
 
-
 @media (max-width: 1600px){
   .blog-section{
     margin-left: clamp(30px, 10vh, 200px);
