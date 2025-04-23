@@ -850,14 +850,14 @@ display: flex;
   margin-left: clamp(30px, 3vh, 60px);
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1600px){
   .sub-mv{
-    margin: 180px clamp(30px, 2vh, 200px) 0;
+    margin: 180px clamp(30px, 10vh, 200px) 0;
   }
 }
 @media (max-width: 1080px){
   .sub-mv{
-    margin: 180px clamp(30px, 2vh, 200px) 0;
+    margin: 180px clamp(30px, 3vh, 200px) 0;
   }
 
   .img-divider img{
