@@ -852,7 +852,7 @@ display: flex;
 
 @media (max-width: 1600px){
   .sub-mv{
-    margin: 180px clamp(30px, 10vh, 200px) 0;
+    margin: 180px auto 0;
   }
 }
 @media (max-width: 1080px){
