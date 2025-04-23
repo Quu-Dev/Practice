@@ -946,13 +946,13 @@ display: flex;
   border-radius: 5px;
 }
 
+
+
 @media (max-width: 1600px){
   .blog-section{
-    margin: 0 auto ;
+    margin-left: clamp(30px, 10vh, 200px);
+    margin-right: clamp(30px, 10vh, 200px);
   }
-}
-
-
 
   .blog-content{
     grid-template-columns: 30% 30% 30%;
