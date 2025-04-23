@@ -1,0 +1,149 @@
+:root {
+  --font-color-primary: #543f32;
+  --font-color-secondary: #ffffff;
+  --secondary-color: #b77c00;
+}
+
+.swiper {
+  max-width: 700px;
+  width: 100%;
+  position: relative;
+  margin-top: clamp(10px, 2vw, 52px);
+}
+
+.swiper-slide {
+  background: #fff;
+  padding: 10px;
+  height: 545px;
+  width: 415px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide:nth-child(1n) {
+  width: 65%;
+}
+
+.swiper-button-prev,
+.swiper-pagination,
+.swiper-button-next {
+  width: unset !important;
+  top: unset !important;
+  left: unset !important;
+  right: unset !important;
+  bottom: unset !important;
+  position: unset !important;
+  margin-top: unset !important;
+  padding: unset !important;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.button-container-rv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: flex-end;
+}
+
+.reverse-container {
+  justify-content: flex-end;
+}
+
+.right240 {
+  right: clamp(10px, 47vw, 260px);
+}
+
+.swiper-button-prev {
+  content: url(../img/top/left-button.svg);
+  margin-right: 30px;
+}
+
+.swiper-button-next {
+  content: url(../img/top/right-button.svg);
+}
+
+
+.card-design {
+  border: 2px solid var(--secondary-color);
+  height: clamp(100px, calc(30% / 2rem + 10px), 525px);
+  padding: clamp(15px, 5vw, 30px);
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pagination-container {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  justify-content: flex-end;
+}
+
+.swiper-pagination {
+  text-align: center;
+  transition: 0.3s opacity;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--secondary-color) !important;
+  width: 30px !important;
+  height: 5px !important;
+  border-radius: 10px !important;
+  margin: unset !important;
+}
+
+.swiper-pagination-bullet {
+  width: 30px !important;
+  height: 5px !important;
+  border-radius: 10px !important;
+  opacity: unset !important;
+}
+
+.product-img {
+  max-width: 100%;
+}
+
+.product-title {
+  font-size: clamp(18px, 2vw, 24px);
+  border-bottom: 2px solid var(--secondary-color);
+  font-family: "source-han-serif-japanese", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.product-text {
+  line-height: 2;
+  margin-top: clamp(15px, 1vw, 30px);
+}
+.product-price {
+  font-size: 14px;
+}
+
+.mr30{
+    margin-right: 30px;
+}
+
+.ml30{
+    margin-left: 30px;
+}
+
+.nml {
+  margin-left: unset !important;
+}
+
+.nmr {
+  margin-right: unset !important;
+}

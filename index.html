@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+
+    <!-- FOR HEADER -->
+    <section class="top-nav">
+      <div class="left-container"><a href="index.html">株式会社ライトコア</a></div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu" id="menu">
+        <li>
+          <a href="about.html"
+            ><p class="english">About</p>
+            <p class="japanese">私達について</p></a
+          >
+        </li>
+        <li>
+          <a href="lineup-list.html"
+            ><p class="english">Line up</p>
+            <p class="japanese">商品一覧</p></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><p class="english">Access</p>
+            <p class="japanese">アクセス</p></a
+          >
+        </li>
+        <li>
+          <a href="blog.html"
+            ><p class="english">Blog</p>
+            <p class="japanese">ブログ</p></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><p class="english">Site map</p>
+            <p class="japanese">サイトマップ</p></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><p class="english">Contact</p>
+            <p class="japanese">お問い合わせ</p></a
+          >
+        </li>
+        <li>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-line"></i></a>
+          </div>
+        </li>
+          <li class="privacy">
+          <a href="#"
+            ><p class="english">Privacy Policy</p>
+            <p class="japanese">プライバシーポリシー</p></a>
+        </li>
+      </ul>
+    </section>
+
+    <!--FOR MV SECTION -->
+    <div class="mv-section">
+      <div class="mv-container">
+        <div class="main-mv-left-container">
+          <img src="img/top/mv-img01.jpg" class="mv-img01" alt="" />
+          <div class="mv-headline">
+            <div class="mv-left-container">
+              <h1 class="english-mv-headline">
+                Discover the Perfect Finishing Touch
+              </h1>
+              <h1 class="japanese-mv-headline">
+                最後の仕上げにふさわしい一品を見つけて
+              </h1>
+            </div>
+            <div class="mv-right-container">
+              <p class="scroll-text">Scroll</p>
+              <img
+                src="img/top/mv-arrow-down.svg"
+                class="arrow-down"
+                alt="arrow-down"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="main-mv-right-container">
+          <img src="img/top/mv-img02.jpg" class="mv-img02" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!--FOR SECTION01 -->
+    <div class="section01 mt150">
+      <div class="section01-container">
+        <h1 class="headline center">About</h1>
+        <span class="sub-headline center">-私達について- </span>
+        <p class="text mt60 mb60 center">
+          私たちのジュエリーは、自分らしく輝きたいと願うすべての女性に寄り添います。<br />
+          特別な日を彩る一粒も、何気ない日常に馴染むささやかな輝きも、<br />
+          ひとつひとつ丁寧に想いを込めてお届けしています。<br />
+          身につけるたびに気分が上がり、<br />
+          あなたらしさを引き出してくれる、そんなジュエリーとの出会いを、<br />
+          ここで見つけてください。
+        </p>
+        <a href="#">
+          <div class="seemore-btn02">もっと見る</div>
+        </a>
+      </div>
+    </div>
+
+    <!--FOR SECTION02 -->
+    <div class="section02 mt150">
+      <div class="section02-container mt150">
+        <h1 class="headline center">Line up</h1>
+        <span class="sub-headline center">-商品一覧- </span>
+
+        <div class="section02-contents">
+          <!-- FIRST PRODUCT EARRINGS-->
+          <div class="section-product">
+            <div class="section02-left-container">
+              <img src="img/top/img01.jpg" class="img" alt="" />
+              <div class="section02-middle">
+                <h1 class="title-02">イヤリング</h1>
+                <p class="text left mb30 mt30">
+                  繊細なスタッドから存在感のあるフープまで、毎日身に着けたくなる一品を見つけてください。
+                </p>
+                <a href="#"><div class="seemore-btn">もっと見る</div></a>
+              </div>
+            </div>
+
+            <div class="section02-right">
+              <!-- Slider main container -->
+              <div class="swiper nmr">
+                <div class="button-container">
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides 01-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-img-earrings01.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Eclat（エクラ）</h1>
+                        <p class="product-text">
+                          ゴールドの艶やかさが印象的なイヤリング。華やかすぎず上品に耳元を彩り、日常使いにも特別な日にもぴったりの存在感です。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides 01-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-img-earrings02.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Lune（リュヌ）</h1>
+                        <p class="product-text">
+                          無駄を削ぎ落としたシンプルなシルバーイヤリング。さりげなく光る洗練されたデザインで、どんなコーディネートにも自然に馴染みます。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides 01-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-img-earrings03.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Eclat（エクラ）</h1>
+                        <p class="product-text">
+                          ゴールドの艶やかさが印象的なイヤリング。華やかすぎず上品に耳元を彩り、日常使いにも特別な日にもぴったりの存在感です。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="pagination-container">
+                  <div class="swiper-pagination mr30"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FIRST PRODUCT NECKLACE-->
+          <div class="section-product-reverse">
+            <div class="section02-right nml mr">
+              <!-- Slider main container -->
+              <div class="swiper nmr nml">
+                <div class="button-container-rv">
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper right240">
+                  <!-- Slides 01-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-necklace-img01.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Clair（クレール）</h1>
+                        <p class="product-text">
+                          小さな星モチーフが首元で優しく輝くネックレス。可憐で愛らしい印象を与え、日常のコーデにさりげない彩りを添えます。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides 0-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-necklace-img02.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Eclat（エクラ）</h1>
+                        <p class="product-text">
+                          ゴールドの艶やかさが印象的なイヤリング。華やかすぎず上品に耳元を彩り、日常使いにも特別な日にもぴったりの存在感です。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides 01-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-necklace-img03.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Eclat（エクラ）</h1>
+                        <p class="product-text">
+                          ゴールドの艶やかさが印象的なイヤリング。華やかすぎず上品に耳元を彩り、日常使いにも特別な日にもぴったりの存在感です。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="pagination-container">
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section02-left-container-rv">
+              <div class="section02-middle">
+                <h1 class="title-02">ネックレス</h1>
+                <p class="text left mb30 mt30">
+                  適切なネックレスは、どんな装いにも完璧な仕上げを加えることができます。
+                </p>
+                <a href="#"><div class="seemore-btn">もっと見る</div></a>
+              </div>
+              <img src="img/top/img02.jpg" class="img" alt="" />
+            </div>
+          </div>
+
+          <!-- FIRST PRODUCT RING-->
+          <div class="section-product">
+            <div class="section02-left-container">
+              <img src="img/top/img03.jpg" class="img" alt="" />
+              <div class="section02-middle">
+                <h1 class="title-02">ネックレス</h1>
+                <p class="text left mb30 mt30">
+                  適切なネックレスは、
+                  どんな装いにも完璧な仕上げを加えることができます。
+                </p>
+                <a href="#"><div class="seemore-btn">もっと見る</div></a>
+              </div>
+            </div>
+
+            <div class="section02-right">
+              <!-- Slider main container -->
+              <div class="swiper nmr">
+                <div class="button-container">
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides 01-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-ring-img01.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Clair（クレール）</h1>
+                        <p class="product-text">
+                          小さな星モチーフが首元で優しく輝くネックレス。可憐で愛らしい印象を与え、日常のコーデにさりげない彩りを添えます。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides 0-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-necklace-img02.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Eclat（エクラ）</h1>
+                        <p class="product-text">
+                          ゴールドの艶やかさが印象的なイヤリング。
+                          華やかすぎず上品に耳元を彩り、日常使いにも特別な日にもぴったりの存在感です。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides 01-->
+                  <div class="swiper-slide">
+                    <div class="card-design">
+                      <div class="details-product">
+                        <img
+                          class="product-img"
+                          src="img/top/product-necklace-img03.jpg"
+                          alt=""
+                        />
+                        <h1 class="product-title">Eclat（エクラ）</h1>
+                        <p class="product-text">
+                          ゴールドの艶やかさが印象的なイヤリング。華やかすぎず上品に耳元を彩り、日常使いにも特別な日にもぴったりの存在感です。
+                        </p>
+                      </div>
+                      <p class="product-price">¥9999.00</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="pagination-container">
+                  <div class="swiper-pagination mr30"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FOR SECTION03 -->
+    <div class="section03 mt150">
+      <div class="section03-container">
+        <div class="section03-content at">
+          <h1 class="headline left at">About</h1>
+          <span class="sub-headline left">-私達について- </span>
+          <div class="mt60">
+            <div class="access-details ">
+              <p class="text  bold width-text">住所</p>
+              <p class="text details">株式会社ライトコア</p>
+            </div>
+            <div class="access-details mt30 nm0">
+              <p class="text  bold width-text">電話番号</p>
+              <p class="text details">06-4256-3641</p>
+            </div>
+            <div class="access-details mt30 nm0">
+              <p class="text  bold width-text">営業時間</p> 
+              <p class="text details">これはダミーテキストです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+            </div>
+            <div class="access-details mt30 nm0">
+              <p class="text bold width-text">定休日</p>
+              <p class="text details">これはダミーテキストです。</p>
+            </div>
+          </div>
+          <a class="mt60" href="#"><div class="seemore-btn02">もっと見る</div></a>
+        </div>
+        <div class="section03-content">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.252412342378!2d135.49670027574442!3d34.69881297292034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ec5525c671%3A0xab4cf7027afa3184!2sOsaka%20Station%203%20Building%2C%2027%2C%201-ch%C5%8Dme-1-3%20Umeda%2C%20Kita%20Ward%2C%20Osaka%2C%20530-0001%2C%20Japan!5e0!3m2!1sen!2sph!4v1744605380087!5m2!1sen!2sph"
+            width="100%"
+            height="555"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!--FOR SECTION04 -->
+    <div class="section04 mt150">
+      <div class="section04-container">
+        <h1 class="headline left">Blog</h1>
+        <span class="sub-headline left">-ブログ-</span>
+        <div class="section04-content mt60">
+          <div class="blog-card">
+            <a href="#">
+              <img
+                src="img/top/blog-img.jpg"
+                class="blog-img mb30"
+                alt="blog-img"
+              />
+              <p class="blog-date">2025年3月14日</p>
+              <p class="blog-title">お気に入りのジュエリーができる瞬間</p>
+              <p class="text left truncate">最近、お客様から「これを見るたびに気持ちが前向きになるんです」と言っていただいたリングがあります。私たちにとってジュエリーは、ただのアクセサリーではなく、気持ちにそっと寄り添い、自分らしさを思い出させてくれる存在でありたいと考えています。素材選びからデザインの細部まで、日常に馴染みながらも特別感を忘れないように、スタッフ一同、心を込めて制作しています。どんな時も自分らしくいられるお守りのような一粒に出会えるよう、これからも丁寧に、ひとつひとつ想いを込めて作り続けていきます。大切に選ばれるジュエリーになること、それが私たちの喜びです。
+              </p>
+            </a>
+          </div>
+
+          <div class="blog-card">
+            <a href="#">
+              <img
+                src="img/top/blog-img.jpg"
+                class="blog-img mb30"
+                alt="blog-img"
+              />
+              <p class="blog-date">2025年3月14日</p>
+              <p class="blog-title">お気に入りのジュエリーができる瞬間</p>
+              <p class="text left truncate">最近、お客様から「これを見るたびに気持ちが前向きになるんです」と言っていただいたリングがあります。私たちにとってジュエリーは、ただのアクセサリーではなく、気持ちにそっと寄り添い、自分らしさを思い出させてくれる存在でありたいと考えています。素材選びからデザインの細部まで、日常に馴染みながらも特別感を忘れないように、スタッフ一同、心を込めて制作しています。どんな時も自分らしくいられるお守りのような一粒に出会えるよう、これからも丁寧に、ひとつひとつ想いを込めて作り続けていきます。大切に選ばれるジュエリーになること、それが私たちの喜びです。
+              </p>
+            </a>
+          </div>
+
+          <div class="blog-card">
+            <a href="#">
+              <img
+                src="img/top/blog-img.jpg"
+                class="blog-img mb30"
+                alt="blog-img"
+              />
+              <p class="blog-date">2025年3月14日</p>
+              <p class="blog-title">お気に入りのジュエリーができる瞬間</p>
+              <p class="text left truncate">最近、お客様から「これを見るたびに気持ちが前向きになるんです」と言っていただいたリングがあります。私たちにとってジュエリーは、ただのアクセサリーではなく、気持ちにそっと寄り添い、自分らしさを思い出させてくれる存在でありたいと考えています。素材選びからデザインの細部まで、日常に馴染みながらも特別感を忘れないように、スタッフ一同、心を込めて制作しています。どんな時も自分らしくいられるお守りのような一粒に出会えるよう、これからも丁寧に、ひとつひとつ想いを込めて作り続けていきます。大切に選ばれるジュエリーになること、それが私たちの喜びです。
+              </p>
+            </a>
+          </div>
+        </div>
+        <a href="#" class="mt60">
+          <div class="seemore-btn02">もっと見る</div>
+        </a>
+      </div>
+    </div>
+
+    <!--FOR SECTION05 -->
+    <div class="section05 mt150">
+      <div class="section05-container">
+        <h1 class="headline left">Review</h1>
+        <span class="sub-headline left">-口コミ- </span>
+      </div>
+    </div>
+
+    <!-- FOR CONTACT SECTION -->
+    <div class="contact-section mt150">
+      <div class="contact-container">
+        <div class="contact-content">
+          <h1 class="headline left" style="color: #fff">Contacts</h1>
+          <span class="sub-headline left" style="color: #fff"
+            >-お問い合わせ-</span>
+            <p class="text" style="color: #fff">その他、ご意見・お問い合わせはこちら。</p>
+            <p class="contact-number">06-4256-3641</p>
+            <p class="contact-schedule mb60"><b>Open</b>　　11:00～19:00
+            <br> <b>Close</b>　 水曜日、木曜日</p>
+            <a href="#"><div class="seemore-btn02">もっと見る</div></a>
+        </div>
+      </div>
+    </div>
+
+        <!-- FOR FOOTER SECTION -->
+        <div class="footer-section">
+          <div class="footer-container">
+            <div class="footer-content">
+              <div class="footer-right">
+              <h1 class="footer-logo">株式会社ライトコア</h1>
+              <p class="text" style="color: #fff;">Copyright © 株式会社ライトコア All Rights Reserved</p>
+            </div>
+
+            <div class="footer-left">
+              <ul class="footer-nav">
+                <li>
+                  <a href="privacy-policy.html"><p class="english" style="color: #fff">Privacy Policy</p>
+                    <p class="japanese" style="color: #fff">プライバシーポリシー</p></a>
+                </li>
+                <li>
+                  <div class="socials" style="color: #fff">
+                    <a href="#"><i style="color: #fff" class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i style="color: #fff" class="fa-brands fa-line"></i></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        
+            </div>
+          </div>
+        </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
