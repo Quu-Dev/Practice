@@ -911,7 +911,7 @@ display: flex;
 
 .blog-content{
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 31% 31% 31%;
   grid-gap: 60px;
   align-items: center;
   justify-content: center;
@@ -954,7 +954,7 @@ display: flex;
   }
 
   .blog-content{
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 31% 31% 31%;
     grid-gap: clamp(30px, 3vh, 60px);
   }
 
