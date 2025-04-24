@@ -28,7 +28,6 @@ body {
 a {
   text-decoration: none;
   color: var(--font-color-primary);
-  width: 250px;
 }
 
 ul,
@@ -1069,11 +1068,14 @@ font-weight: 700;
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1600px) {
   .blog-details-section{
     margin-left: clamp(30px, 3vh, 200px);
     margin-right: clamp(30px, 3vh, 200px);
   }
+}
+
+@media (max-width: 1080px){
   .blog-headline{
     font-size: clamp(36px, 3vh, 50px);
   }
@@ -1236,11 +1238,14 @@ top: 100px;
   object-fit: fill;
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1600px) {
   .lineup-details-section{
     margin-left: clamp(30px, 3vh, 200px);
     margin-right: clamp(30px, 3vh, 200px);
   }
+}
+
+@media (max-width: 1080px){
   .lineup-headline{
     font-size: clamp(20px, 1vh, 24px);
   }
