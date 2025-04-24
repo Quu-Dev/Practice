@@ -1164,10 +1164,10 @@ top: 100px;
   text-align: left;
 }
 
-@media (max-width: 1920px){
+@media (max-width: 1600px){
   .lineup-section{
-    margin-left: clamp(30px, 3vh, 90px);
-    margin-right: clamp(30px, 3vh, 90px);
+    margin-left: clamp(30px, 3vh, auto);
+    margin-right: clamp(30px, 3vh, auto);
   }
 
 }
