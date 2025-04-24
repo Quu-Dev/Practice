@@ -1130,7 +1130,7 @@ top: 100px;
 
 .products{
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: auto auto auto;
   grid-gap: clamp(15px, 3vh, 30px);
   height: clamp(100px, calc(30% / 2rem + 10px), 525px);
 }
