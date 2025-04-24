@@ -1093,7 +1093,7 @@ font-weight: 700;
 
 .lineup-container{
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% auto;
   grid-gap: clamp(30px, 3vh, 60vh);
 }
 
