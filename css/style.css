@@ -1166,8 +1166,8 @@ top: 100px;
 
 @media (max-width: 1600px){
   .lineup-section{
-    margin-left: clamp(30px, 3vh, auto);
-    margin-right: clamp(30px, 3vh, auto);
+    margin-left: clamp(30px, 3vh, 90px);
+    margin-right: clamp(30px, 3vh, 90px);
   }
 
 }
