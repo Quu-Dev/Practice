@@ -44,6 +44,8 @@ li {
   margin-left: 60px;
 }
 
+
+
 .ml30 {
   margin-left: 30px;
 }
@@ -53,7 +55,7 @@ li {
 }
 
 .mt60 {
-  margin-top: 60px;
+  margin-top: clamp(30px, 3vh,60px);
 }
 .mb60 {
   margin-bottom: 60px;
