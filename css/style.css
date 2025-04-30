@@ -1357,13 +1357,68 @@ top: 100px;
   }
 }
 
+/* SITEMAP */
+.sitemap-section{
+  justify-content: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sitemap-container{
+  max-width: 1520px;
+  width: 100%;
+}
+
+.page {
+  width: 100%;
+}
+
+#list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sitemap-left{
+  display: flex;
+  align-items: center;
+}
+
+.sitemap-title{
+  font-size: clamp(16px, 1vh,24px);
+  font-weight: 700;
+  margin: 0;
+}
+
+.sitemap-subtitle{
+  color: var(--secondary-color);
+  font-size: clamp(12px, 1vh,16px);
+  margin: 0;
+}
+
+
+@media (max-width: 1600px){
+  .sitemap-section{
+    margin-left: clamp(30px, 10vh, 200px);
+    margin-right: clamp(30px, 10vh, 200px);
+  }
+}
+
+@media (max-width: 1080px){
+  .sitemap-section{
+    margin-left: clamp(30px, 3vh, 200px);
+    margin-right: clamp(30px, 3vh, 200px);
+  }  
+}
+
+
 /* ERROR */
 .error-section{
-
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .error-container{
